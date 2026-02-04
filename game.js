@@ -6,11 +6,11 @@
   const ROUND_SECONDS = 30;
 
   // ✅ fast like before
-  const POP_MIN = 320;
-  const POP_MAX = 700;
+  const POP_MIN = 260;
+  const POP_MAX = 600;
 
-  const STAY_MIN = 420;
-  const STAY_MAX = 820;
+  const STAY_MIN = 360;
+  const STAY_MAX = 720;
 
   const DIFFICULTY_EVERY_SEC = 6;
   const DIFFICULTY_STEP = 0.92;
@@ -482,3 +482,4 @@
   setAllMoleImages();
   setUI();
 })();
+
